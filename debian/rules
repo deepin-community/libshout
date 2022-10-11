@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	find debian -type f -name '*.la' -delete
+	find debian -type f -name '*.ckport' -delete
+	rm -f debian/tmp/usr/share/doc/libshout/COPYING

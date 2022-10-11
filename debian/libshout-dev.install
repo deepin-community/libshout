@@ -1,0 +1,5 @@
+usr/include
+usr/lib/*/libshout.so
+usr/lib/*/libshout.a
+usr/lib/*/pkgconfig
+usr/share/aclocal
