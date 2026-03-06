@@ -8,4 +8,9 @@ override_dh_auto_install:
 	dh_auto_install
 	find debian -type f -name '*.la' -delete
 	find debian -type f -name '*.ckport' -delete
-	rm -f debian/tmp/usr/share/doc/libshout/COPYING
+	rm -f debian/tmp/usr/share/doc/libshout/COPYING \
+		debian/tmp/usr/share/doc/libshout/README \
+		debian/tmp/usr/share/doc/libshout/NEWS
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS

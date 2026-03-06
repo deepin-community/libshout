@@ -108,6 +108,9 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #undef HAVE_UNISTD_H
 
+/* Define if you want Vorbis streams supported */
+#undef HAVE_VORBIS
+
 /* Define if you have winsock2.h on MINGW */
 #undef HAVE_WINSOCK2_H
 
@@ -123,8 +126,7 @@
 /* Shout library minor version */
 #undef LIBSHOUT_MINOR
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #undef LT_OBJDIR
 
 /* Define if you don't want to use the thread library */

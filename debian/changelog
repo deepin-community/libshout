@@ -1,3 +1,13 @@
+libshout (2.4.6-1) unstable; urgency=medium
+
+  * New upstream version 2.4.6.
+  * d/control: Bump DH compat to 13.
+  * d/libshout3.symbols: Update symbols.
+  * d/libshout3.docs, d/rules: Install NEWS as changelog, drop README.
+  * Update Standards-Version to 4.6.0.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 20 Apr 2022 03:49:55 -0400
+
 libshout (2.4.5-1) unstable; urgency=medium
 
   * New upstream version 2.4.5.
